@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(70, 193, 224);
+  color: white;
+}
+
+/* Red background when stock is 0 */
+.out-of-stock {
+  background-color: #f63a3a;
+}
+
+/* Red, bold number when stock is below 10 */
+.low-stock {
+  background-color: #f6c43a;
+}
+
+button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+main {
+  background-color: white;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
